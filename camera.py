@@ -2,8 +2,8 @@ from picamera import PiCamera
 from time import sleep
 
 camera = PiCamera()
-
-camera.start_preview()
-sleep(10)
-camera.capture('shahad.jpg')
-camera.stop_preview()
+count = 0
+while (True):
+	sleep(10)
+	camera.capture('shahad'+str(count)+'.jpg')
+	count += 1
