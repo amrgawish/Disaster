@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-red-contrib-cf-cloudant' ]
+2 info using npm@1.4.21
+3 info using node@v4.8.2
+4 verbose cache add [ 'node-red-contrib-cf-cloudant', null ]
+5 verbose cache add name=undefined spec="node-red-contrib-cf-cloudant" args=["node-red-contrib-cf-cloudant",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-red-contrib-cf-cloudant',
+6 verbose parsed url   path: 'node-red-contrib-cf-cloudant',
+6 verbose parsed url   href: 'node-red-contrib-cf-cloudant' }
+7 silly lockFile 2e48c968-node-red-contrib-cf-cloudant node-red-contrib-cf-cloudant
+8 verbose lock node-red-contrib-cf-cloudant /home/pi/.npm/2e48c968-node-red-contrib-cf-cloudant.lock
+9 silly lockFile 2e48c968-node-red-contrib-cf-cloudant node-red-contrib-cf-cloudant
+10 silly lockFile 2e48c968-node-red-contrib-cf-cloudant node-red-contrib-cf-cloudant
+11 verbose addNamed [ 'node-red-contrib-cf-cloudant', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d18e4798-node-red-contrib-cf-cloudant node-red-contrib-cf-cloudant@
+14 verbose lock node-red-contrib-cf-cloudant@ /home/pi/.npm/d18e4798-node-red-contrib-cf-cloudant.lock
+15 silly addNameRange { name: 'node-red-contrib-cf-cloudant',
+15 silly addNameRange   range: '*',
+15 silly addNameRange   hasData: false }
+16 verbose request where is /node-red-contrib-cf-cloudant
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id c02fc54e357af08a
+19 verbose url raw /node-red-contrib-cf-cloudant
+20 verbose url resolving [ 'https://registry.npmjs.org/',
+20 verbose url resolving   './node-red-contrib-cf-cloudant' ]
+21 verbose url resolved https://registry.npmjs.org/node-red-contrib-cf-cloudant
+22 verbose request where is https://registry.npmjs.org/node-red-contrib-cf-cloudant
+23 info trying registry request attempt 1 at 22:02:20
+24 http GET https://registry.npmjs.org/node-red-contrib-cf-cloudant
+25 http 404 https://registry.npmjs.org/node-red-contrib-cf-cloudant
+26 silly registry.get cb [ 404,
+26 silly registry.get   { 'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '2',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 21 Jan 2018 22:02:22 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     connection: 'close',
+26 silly registry.get     'x-served-by': 'cache-yyz8333-YYZ',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1516572141.736108,VS0,VE1293',
+26 silly registry.get     vary: 'Accept-Encoding' } ]
+27 silly lockFile d18e4798-node-red-contrib-cf-cloudant node-red-contrib-cf-cloudant@
+28 silly lockFile d18e4798-node-red-contrib-cf-cloudant node-red-contrib-cf-cloudant@
+29 error 404 Not Found
+29 error 404
+29 error 404 'node-red-contrib-cf-cloudant' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Maybe try 'npm search red contrib cf cloudant'
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Linux 4.9.59-v7+
+31 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "node-red-contrib-cf-cloudant"
+32 error cwd /home/pi/Disaster/gateway
+33 error node -v v4.8.2
+34 error npm -v 1.4.21
+35 error code E404
+36 verbose exit [ 1, true ]
